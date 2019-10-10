@@ -1,11 +1,24 @@
 /* タブレット向けレイアウト */
 @media (max-width: 1000px) {
+  
   .flex-list {
     flex-wrap: wrap;
   }
+  
   .flex-list li {
     width: 50%;
   }
+  
+  * {
+	   float: none;
+	   position: static;
+  }
+　
+  img {
+    max-width: 100%;
+	  height: auto;
+  }
+	
 }
 
 /* スマホ向けレイアウト */
@@ -14,3 +27,5 @@
   .flex-list{
     flex-direction:column;
   }
+  
+}
