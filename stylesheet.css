@@ -258,7 +258,7 @@ header{
 .centence{
   font-weight:normal;
   color:rgba(94,161,201,0.9);
-  font-size:12px;
+  font-size:18px;
   opacity:0.8;
   height:400px;
 }
@@ -282,6 +282,14 @@ header{
   float:right;
   margin-top:40px;
   color:rgb(,,);
+}
+
+.contact-form h6{
+  font-size:18px;
+}
+
+.contact-form p{
+  font-size:15px;
 }
 
 footer{
