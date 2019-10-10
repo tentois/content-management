@@ -212,7 +212,6 @@ header{
   padding:13px 24px;
   display:block;
   text-align:center;
-  border:1px red solid;
 }
 
 .content:hover{
@@ -244,7 +243,6 @@ header{
   text-align:center;
   color:rgba(255, 255, 255, 0.8);
   padding: 13px 24px;
-  border:1px red solid;
 }
 
 .contentblog:hover{
@@ -260,7 +258,7 @@ header{
   color:rgba(94,161,201,0.9);
   font-size:18px;
   opacity:0.8;
-  height:400px;
+  height:600px;
 }
 
 .part{
@@ -272,7 +270,7 @@ header{
 }
 
 .ohana{
-  height:190px;
+  height:180px;
   width:190px;
   margin-right:110px;
 }
