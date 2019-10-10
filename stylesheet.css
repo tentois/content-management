@@ -61,7 +61,7 @@ a {
 }
 
 header{
-  height: 40px;
+  height: 85px;
   width: 100%;
   background-color: rgba(109, 155, 52, 0.7);
   position :fixed;
@@ -77,8 +77,8 @@ header{
 
 .header-left{
   float:left;
-  line-height: 40px;
-  height: 40px;
+  line-height: 85px;
+  height: 85px;
   width:100px;
   text-align:center;
   transition:all 1s;
@@ -101,7 +101,7 @@ header{
 .header-right label{
   display:block;
   width:60px;
-  height:40px;
+  height:85px;
   border-radius: 100%;
   transition: all 1s;
   float:right;
@@ -118,9 +118,9 @@ header{
 .bar{
   color:rgba(219, 233, 201, 1);
   text-align: center;
-  line-height:40px;
-  font-size:25px;
-  height:40px;
+  line-height:85px;
+  font-size:45px;
+  height:85px;
   padding-top:5px;
   width:100%;
   margin-left:
@@ -130,7 +130,7 @@ header{
 .hidden-show{
     height: 0;
     padding: 0;
-    margin-top:40px;
+    margin-top:85px;
     overflow: hidden;
     opacity: 0;
     transition: 0.8s;
