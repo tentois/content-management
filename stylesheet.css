@@ -258,7 +258,7 @@ header{
   color:rgba(94,161,201,0.9);
   font-size:18px;
   opacity:0.8;
-  height:600px;
+  height:500px;
 }
 
 .part{
@@ -279,7 +279,7 @@ header{
 
 .contact-form{
   float:right;
-  margin-top:40px;
+  margin-top:60px;
   color:rgb(,,);
 }
 
