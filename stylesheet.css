@@ -95,7 +95,7 @@ header{
 .header-right{
   float:right;
   height:700px;
-  width:700px;
+  width:350px;
 }
 
 .header-right label{
@@ -153,6 +153,7 @@ header{
 
 .right-touch li{
   border-bottom:1px solid rgb(55,30,89);
+  font-size:18px;
   list-style: circle;
   padding-top:5px;
   color:rgb(158,135,187);
@@ -186,7 +187,7 @@ header{
   width: 300px;
   padding: 0px 15px;
   margin: 40px 40px 0 40px;
-  font-size:20px;
+  font-size:18px;
   font-weight: bold;
 }
 
