@@ -212,6 +212,7 @@ header{
   padding:8px 24px;
   display:block;
   text-align:center;
+  border:1px red solid;
 }
 
 .content:hover{
