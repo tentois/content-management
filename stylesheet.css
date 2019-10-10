@@ -94,8 +94,8 @@ header{
 
 .header-right{
   float:right;
-  height:350px;
-  width:250px;
+  height:700px;
+  width:700px;
 }
 
 .header-right label{
@@ -183,10 +183,10 @@ header{
 
 .content-explain{
   color:rgba(230, 230, 230, 0.7);
-  width: 150px;
+  width: 300px;
   padding: 0px 15px;
   margin: 40px 40px 0 40px;
-  font-size:10px;
+  font-size:20px;
   font-weight: bold;
 }
 
