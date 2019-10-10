@@ -203,6 +203,7 @@ header{
   border-radius: 15px;
   flex:auto;
   width:50%;
+  height:40px;
   transition:all 0.5s;
 }
 
