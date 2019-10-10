@@ -241,6 +241,7 @@ header{
 .contentblog a{
   display:block;
   border-radius: 15px;
+  text-align:center;
   color:rgba(255, 255, 255, 0.8);
   padding: 13px 24px;
   border:1px red solid;
