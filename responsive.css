@@ -24,18 +24,23 @@
 /* スマホ向けレイアウト */
 @media (max-width:670px) {
   /* .flex-listにflex-directionを指定してください */
-  .flex-list{
-    flex-direction:column;
-  }
+  	.flex-list{
+    	flex-direction:column;
+  	}
 
-  * {
-     float: none;
-     position: static;
-  }
+  	* {
+     	float: none;
+     	position: static;
+  	}
 　
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+  	img {
+    	max-width: 100%;
+    	height: auto;
+  	}
+  
+	.central{
+		width:670px;
+	}
+	
 
 }
