@@ -84,15 +84,25 @@
 	.content{
 	  border:solid red 1px;
 	}
-	.Instagram a{
-	  border:solid orange 1px;
-	}
 	.content-explain{
 	  width:250px;
 	}
 	.contents{
 	  border;solid blue 1px;
+	  margin:0 20px;
 	}
+	.instagram a{
+    color:rgba(255, 255, 255, 0.8);
+    display:block;
+    text-align:center;
+    border:solid orange 1px;
+  }
+  .twitter a{
+    color:rgba(255, 255, 255, 0.8);
+    display:block;
+    text-align:center;
+    border:solid blue 1px;
+  }
 	
 	
 	
@@ -109,6 +119,9 @@
 	
 	.part{
 	  height:250px;
+	}
+	.contact-form{
+	  height:100px;
 	}
 	
 	.contact-form h6{
