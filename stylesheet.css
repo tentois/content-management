@@ -166,6 +166,7 @@ header{
   background-size: cover;
   color: white;
   padding: 180px 0 100px 0;
+  width:100%;
 }
 
 .message{
@@ -250,6 +251,7 @@ header{
 
 .purpose{
   background-color:rgb(250,240,211);
+  width:100%;
 }
 
 .centence{
