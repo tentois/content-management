@@ -87,5 +87,8 @@
 	footer{
 		width:100%;
 	}
+	.container{
+	  padding:0;
+	}
 
 }
