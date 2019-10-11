@@ -125,6 +125,18 @@ header{
   margin-bottom:18px;
 }
 
+.right-touch a{
+  color:rgb(152,0,89);
+}
+
+.right-touch a:hover{
+  color:white;
+}
+
+.right-touch a:active{
+  color:rgb(228,0,6);
+}
+
 
 .central{
   background-image: url(https://cdn.pixabay.com/photo/2014/01/02/15/30/tunnel-237656_960_720.jpg);
