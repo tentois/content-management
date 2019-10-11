@@ -24,128 +24,123 @@
 /* スマホ向けレイアウト */
 @media (max-width:670px) {
   /* .flex-listにflex-directionを指定してください */
-  	.flex-list{
-    	flex-direction:column;
-  	}
+  .flex-list{
+  	flex-direction:column;
+  }
 
-  	* {
-     	float: none;
-     	position: static;
-  	}
+  * {
+  	float: none;
+  	position: static;
+	}
 
-  	img {
-    	max-width: 100%;
-    	height: auto;
-  	}
-  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
 	.central{
 		width:100%;
 	}
-	
+
 	header{
 		width:100%;
 	}
-	
+
 	.header-left{
 	  width:90px;
 	}
-	
+
 	.header-right{
 	  width:190px;
 	  height:300px;
-	  
+
 	}
-	
+
 	.right-touch li{
 	  padding-top:15px;
 	  margin-bottom:10px;
-	  
 	}
-	
+
+
+
 	label{
-	  
+
 	}
 	.hidden-show{
 	}
-	
+
 	.central{
 	  padding:100px 0;
 	}
-	
+
 	.message h1{
 	  font-size:30px;
-	 
+
 	}
 
 	.message h2{
 	  font-size:20px;
 	}
-	
-	.content{
-	  border:solid red 1px;
-	}
+
 	.content-explain{
 	  width:250px;
 	}
 	.contents{
-	  border;solid blue 1px;
 	  margin:0 20px;
 	}
 	.instagram a{
     color:rgba(255, 255, 255, 0.8);
     display:block;
     text-align:center;
-    border:solid orange 1px;
   }
   .twitter a{
     color:rgba(255, 255, 255, 0.8);
     display:block;
     text-align:center;
-    border:solid blue 1px;
   }
-	
-	
-	
-	
-	
+
+
+
+
+
 	.purpose{
 		width:100%;
 	}
-	
+
 	.centence{
 	  font-size:11px;
 	  height:400px;
 	}
-	
+
 	.part{
 	  height:250px;
 	}
 	.contact-form{
 	  height:100px;
 	}
-	
+
 	.contact-form h6{
 	  font-size:15px;
-	  
+
 	}
 	.contact-form p{
 	  font-size:13px;
 	  padding-right:15px;
 	}
-	
+
 	.part{
 	  padding-bottom:0;
 	  padding-left:15px;
 	  height:200px;
 	  margin-top:25px;
 	}
-	
+
 	footer{
 		width:100%;
 	}
 	.container{
 	  padding:0;
 	}
-	
+
 
 }
