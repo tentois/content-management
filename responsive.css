@@ -46,8 +46,19 @@
 	}
 
 	.header-left{
-	  width:90px;
+	  width:120px;
 	}
+
+  .coffeelogo{
+    color:rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height:80px;
+    font-size:15px;
+    height:80px;
+    padding-top:0px;
+    width:130px;
+    display: block;
+  }
 
 	.header-right{
 	  width:100px;
