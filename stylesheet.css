@@ -187,13 +187,18 @@ header{
 .instagram a{
   color:rgba(255, 255, 255, 0.8);
   display:block;
-  text-align:center; 
+  text-align:center;
+  height:100%;
+  border-radius: 15px;
+  padding: 13px 24px;
 }
-
 .twitter a{
   color:rgba(255, 255, 255, 0.8);
   display:block;
   text-align:center;
+  height:100%;
+  border-radius: 15px;
+  padding: 13px 24px;
 }
 
 .content:hover{
@@ -225,6 +230,7 @@ header{
   text-align:center;
   color:rgba(255, 255, 255, 0.8);
   padding: 13px 24px;
+  border-radius: 15px;
 }
 
 .contentblog:hover{
@@ -255,6 +261,7 @@ header{
 .ohana{
   height:250px;
   width:250px;
+  margin-right:110px;
   background-size:cover;
 }
 
@@ -262,7 +269,6 @@ header{
 .contact-form{
   float:right;
   margin-top:60px;
-  color:rgb(,,);
 }
 
 .contact-form h6{
