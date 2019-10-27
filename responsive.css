@@ -46,7 +46,7 @@
 	}
 
 	.header-left{
-	  width:100px;
+	  width:120px;
 	}
 
   	.coffeelogo{
@@ -56,12 +56,12 @@
     	  font-size:15px;
     	  height:80px;
     	  padding-top:0px;
-    	  width:130px;
+    	  width:120px;
     	  display: block;
   	}
 
 	.header-right{
-	  width:90px;
+	  width:100px;
 	  height:80px;
           float:right;
           padding-right: 2px;
