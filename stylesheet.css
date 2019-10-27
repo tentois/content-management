@@ -109,16 +109,21 @@ header{
     overflow: hidden;
     opacity: 0;
     transition: 0.8s;
-    z-index: 40;
+    z-index: 10;
     position: fixed;
     margin-left: 65%;
+    pointer-events: none;
+}
+.target{
+  pointer-events: none;
 }
 
 .check:checked ~ .hidden-show {
     padding: 0;
     height: auto;
     opacity: 1;
-    z-index: 80;
+    z-index: 120;
+    pointer-events: auto;
 }
 
 .right-touch{
@@ -138,6 +143,7 @@ header{
   color:rgb(158,135,187);
   letter-spacing: 3px;
   margin-bottom:18px;
+
 }
 
 .right-touch a{
