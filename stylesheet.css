@@ -30,14 +30,12 @@ header{
   background-color: rgba(109, 155, 52, 0.7);
   position :fixed;
   top: 0;
+  padding:0 0 0 15px;
+  margin-bottom: 100px;
   z-index: 100;
+
 }
 
-.header-container{
-  width:100%;
-  padding:0 0 0 15px;
-  margin:0 auto;
-}
 
 .header-left{
   float:left;
@@ -46,6 +44,8 @@ header{
   width:150px;
   text-align:center;
   transition:all 1s;
+  position: fixed;
+  z-index: 100;
 }
 
 .header-left:hover{
@@ -57,27 +57,33 @@ header{
 }
 
 .header-right{
+  height:80px;
+  width:160px;
   float:right;
-  height:800px;
-  width:350px;
+  margin-right: 20px;
 }
 
 .header-right label{
   display:block;
-  width:120px;
+  width:100%;
   height:80px;
   border-radius: 100%;
   transition: all 1s;
-  float:right;
+  cursor: pointer;
+  float: right;
 }
 
 .header-right label:hover{
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.header-right input{
+.check{
   display:none;
+  float: right;
 }
+
+
+
 
 .bar{
   color:rgba(219, 233, 201, 1);
@@ -87,23 +93,25 @@ header{
   height:80px;
   padding-top:15px;
   width:100%;
-  margin-left:
-  cursor:pointer;
 }
 
 .hidden-show{
-    height: 0;
-    padding: 0;
-    margin-top:80px;
+    height: 400px;
+    width:400px;
+    margin-top:90px;
     overflow: hidden;
     opacity: 0;
     transition: 0.8s;
+    z-index: 40;
+    position: fixed;
+    margin-left: 65%;
 }
 
-.header-right input:checked ~ .hidden-show {
+.check:checked ~ .hidden-show {
     padding: 0;
     height: auto;
     opacity: 1;
+    z-index: 80;
 }
 
 .right-touch{
@@ -111,8 +119,8 @@ header{
   background-color:rgba(27,32,35,0.9);
   width:100%;
   height:100%;
-  float:right;
   border:3px solid rgba(166,162,172);
+  z-index: 40;
 }
 
 .right-touch li{
@@ -182,6 +190,8 @@ header{
   width:50%;
   height:50px;
   transition:all 0.5s;
+  z-index: 60;
+  position: relative;
 }
 
 .instagram a{
@@ -222,6 +232,8 @@ header{
   height:50px;
   opacity: 0.8;
   transition:all 0.5s;
+  z-index: 60;
+  position:relative;
 }
 
 .contentblog a{
