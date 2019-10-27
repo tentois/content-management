@@ -89,7 +89,7 @@
 	.contents{
 	  margin:0 20px;
 	}
-	.instagram a{
+  .instagram a{
     color:rgba(255, 255, 255, 0.8);
     display:block;
     text-align:center;
@@ -98,6 +98,7 @@
     color:rgba(255, 255, 255, 0.8);
     display:block;
     text-align:center;
+    z-index:50;
   }
 
 
