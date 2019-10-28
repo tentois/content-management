@@ -17,6 +17,11 @@
     max-width: 100%;
 	  height: auto;
   }
+  .hidden-show{
+    width:350px;
+    height:250px;
+    margin-left: 20%;
+   }
 
 }
 
