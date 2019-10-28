@@ -1,3 +1,9 @@
+@media (max-width:1300px) {
+  .hidden-show{
+    margin-left:68%;
+  }
+}
+
 @media (max-width:1200px) {
   .flex-list {
     flex-wrap: wrap;
@@ -29,9 +35,26 @@
 
 
 }
+@media (max-width:1000px) {
+  .hidden-show{
+      height: 400px;
+      width:350px;
+      float: right;
+      margin-top: 85px;
+      margin-left:54%;
+  }
+  .right-touch li{
+    border-bottom:1px solid rgb(55,30,89);
+    font-size:20px;
+    list-style: circle;
+    padding-top:0px;
+    color:rgb(158,135,187);
+    letter-spacing: 3px;
+    margin-bottom:1px;
+  }
+}
 
-
-@media (max-width: 1000px) {
+@media (max-width: 750px) {
 
   .flex-list {
     flex-wrap: wrap;
@@ -218,4 +241,157 @@
 	}
 
 
+
+}
+@media (max-width:450px) {
+  .hidden-show{
+    width:250px;
+    height:350px;
+    margin-left: 39%;
+	}
+
+
+}
+@media (max-width:400px) {
+  .flex-list{
+  	flex-direction:column;
+  }
+
+  * {
+  	float: none;
+  	position: static;
+	}
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+	.central{
+		width:100%;
+	}
+
+	header{
+		width:100%;
+	}
+
+	.header-left{
+	  width:100px;
+	}
+
+  .coffeelogo{
+    color:rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height:80px;
+    font-size:15px;
+    height:80px;
+    padding-top:0px;
+    width:100px;
+    display: block;
+  }
+
+	.header-right{
+	  width:90px;
+	  height:80px;
+    float:right;
+
+	}
+
+	.right-touch li{
+	  padding-top:15px;
+	  margin-bottom:10px;
+	  font-size:22px;
+	}
+
+
+
+	label{
+    width:100px;
+    height:80px;
+
+	}
+	.hidden-show{
+    width:250px;
+    height:350px;
+    margin-left: 30%;
+	}
+
+	.central{
+	  padding:100px 0;
+	}
+
+	.message h1{
+	  font-size:30px;
+
+	}
+
+	.message h2{
+	  font-size:20px;
+	}
+
+	.content-explain{
+	  width:250px;
+	}
+	.contents{
+	  margin:0 20px;
+	}
+	.instagram a{
+    color:rgba(255, 255, 255, 0.8);
+    display:block;
+    text-align:center;
+  }
+  .twitter a{
+    color:rgba(255, 255, 255, 0.8);
+    display:block;
+    text-align:center;
+  }
+
+
+
+
+
+	.purpose{
+		width:100%;
+		height:500px;
+	}
+
+	.centence{
+	  font-size:11px;
+	  height:450px;
+	}
+
+	.part{
+	  height:250px;
+	}
+	.contact-form{
+	  height:100px;
+	}
+
+	.contact-form h6{
+	  font-size:15px;
+
+	}
+	.contact-form p{
+	  font-size:13px;
+	  padding-right:15px;
+	}
+
+	.part{
+	  padding-bottom:0;
+	  padding-left:15px;
+	  height:200px;
+	  margin-top:25px;
+	}
+
+	footer{
+		width:100%;
+	}
+	.container{
+	  padding:0;
+	}
+  .ohana{
+	  margin-right:0;
+	  width:100%;
+	  height:100%;
+	}
 }
