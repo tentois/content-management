@@ -47,7 +47,6 @@
 
 	.header-left{
 	  width:100px;
-          border:solid green 2px;
 	}
 
         .coffeelogo{
@@ -59,7 +58,6 @@
           padding-top:0px;
           width:100px;
           display: block;
-          border:solid red 1px;
         }
 
 	.header-right{
