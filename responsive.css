@@ -19,17 +19,17 @@
   }
   .hidden-show{
       height: 200px;
-      width:350px;
+      width:300px;
       float: right;
       margin-top: 85px;
-      margin-left:50%;
+      margin-left:55%;
 
   }
   .right-touch li{
     border-bottom:1px solid rgb(55,30,89);
-    font-size:15px;
+    font-size:20px;
     list-style: circle;
-    padding-top:1px;
+    padding-top:0px;
     color:rgb(158,135,187);
     letter-spacing: 3px;
     margin-bottom:1px;
@@ -40,7 +40,7 @@
 }
 
 /* スマホ向けレイアウト */
-@media (max-width:670px) {
+@media (max-width:660px) {
   /* .flex-listにflex-directionを指定してください */
   .flex-list{
   	flex-direction:column;
@@ -102,7 +102,7 @@
 	.hidden-show{
     width:250px;
     height:350px;
-    margin-left: 33%;
+    margin-left: 30%;
 	}
 
 	.central{
